@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "api",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["backend/scripts/dev_server.py", "--data", "C:/Users/Acer/AppData/Local/Temp/claude/d603e670d00d7bc0/ca116549-d763-4857-a006-54f3dfe8d28f/scratchpad/e2e-data", "--port", "8000"],
+      "port": 8000
+    },
+    {
+      "name": "web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "frontend", "run", "dev"],
+      "port": 5173
+    }
+  ]
+}

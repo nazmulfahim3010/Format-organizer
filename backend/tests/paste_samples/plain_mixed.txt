@@ -1,0 +1,30 @@
+Chapter 1: Background
+
+In 2023, 3.5 million people moved to cities. Prices rose 2.5 times.
+
+1.1 Earlier studies
+Smith (2019) found three effects:
+a) higher rents
+b) longer commutes
+c) more noise
+
+1.2 Gaps
+Few studies covered small towns.
+
+Figure 2 - Map of the study area
+
+2. Data
+The data came from two sources.
+
+Table 3. Population by year (thousands)
+Year	Urban	Rural
+2020	1,204	980
+2021	1,260	962
+Note: Estimates for 2021.
+Source: National census
+
+٣. النتائج
+ارتفعت الإيجارات بشكل ملحوظ.
+
+३. निष्कर्ष
+शहरों में किराया बढ़ा।

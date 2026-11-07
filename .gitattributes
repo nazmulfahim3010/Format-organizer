@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.docx binary
+*.png binary
+*.pdf binary
+backend/tests/paste_samples/*.tsv -text

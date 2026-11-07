@@ -1,0 +1,258 @@
+{
+ "id": "ijpcr",
+ "version": "v1",
+ "name": "IJPCR research paper",
+ "description": "International Journal of Peace and Conflict Research article layout: navy banner, side panel with dates and licence, boxed abstract, citation box, numbered sections, declarations and author-date references.",
+ "base": "base.docx",
+ "profile": {
+  "schema_version": 1,
+  "name": "IJPCR research paper",
+  "roles": {
+   "heading_1": "IJPCRHeading1",
+   "heading_2": "IJPCRHeading2",
+   "heading_3": "IJPCRHeading3",
+   "heading_4": "IJPCRHeading4",
+   "heading_5": "IJPCRHeading5",
+   "heading_6": "IJPCRHeading6",
+   "body": "IJPCRBody",
+   "body_first": "IJPCRBodyFirst",
+   "list_bullet": "IJPCRListBullet",
+   "list_number": "IJPCRListBullet",
+   "quote": "IJPCRBlockQuote",
+   "caption": "IJPCRTableCaption",
+   "figure_caption": "IJPCRFigureCaption",
+   "table_text": "IJPCRTableText"
+  },
+  "heading_numbering": "auto",
+  "list_mode": "generated",
+  "keep_template_layout": false,
+  "heading_number_suffix": "space",
+  "table": {
+   "label": "Table",
+   "caption_position": "above",
+   "alignment": "center",
+   "width_percent": 100,
+   "borders": "all",
+   "template_style_id": null,
+   "header_bold": true,
+   "header_shading": null,
+   "repeat_header": true,
+   "cell_alignment": "auto",
+   "wide_table_columns": 7,
+   "wide_table_font_pt": 8.0,
+   "cell_font_pt": null,
+   "note_position": "below",
+   "allow_override": false
+  },
+  "figure": {
+   "label": "Figure",
+   "caption_position": "below",
+   "alignment": "center",
+   "max_width_percent": 100,
+   "max_height_cm": 20.0,
+   "allow_override": false
+  },
+  "language": {
+   "code": "en",
+   "rtl": false,
+   "complex_script_font": null,
+   "east_asian_font": null,
+   "set_default_language": true,
+   "native_digits": false
+  },
+  "labels": {
+   "abstract": "Abstract",
+   "keywords": "Keywords",
+   "caption_separator": ": ",
+   "source": "Source",
+   "note": "Note"
+  },
+  "required_sections": [],
+  "origins": {
+   "language.code": "user",
+   "keep_template_layout": "user",
+   "heading_numbering": "user",
+   "list_mode": "user",
+   "heading_number_suffix": "user",
+   "table.label": "default",
+   "table.caption_position": "user",
+   "table.alignment": "user",
+   "table.width_percent": "user",
+   "table.borders": "user",
+   "table.template_style_id": "user",
+   "table.header_bold": "user",
+   "table.header_shading": "user",
+   "table.repeat_header": "default",
+   "table.cell_alignment": "user",
+   "table.wide_table_columns": "default",
+   "table.wide_table_font_pt": "default",
+   "table.cell_font_pt": "default",
+   "table.note_position": "default",
+   "table.allow_override": "default",
+   "figure.label": "default",
+   "figure.caption_position": "user",
+   "figure.alignment": "user",
+   "figure.max_width_percent": "user",
+   "figure.max_height_cm": "default",
+   "figure.allow_override": "default",
+   "language.rtl": "user",
+   "language.complex_script_font": "default",
+   "language.east_asian_font": "default",
+   "language.set_default_language": "default",
+   "language.native_digits": "user",
+   "labels.abstract": "default",
+   "labels.keywords": "default",
+   "labels.caption_separator": "user",
+   "labels.source": "default",
+   "labels.note": "default",
+   "roles.heading_1": "user",
+   "roles.heading_2": "user",
+   "roles.heading_3": "user",
+   "roles.heading_4": "user",
+   "roles.heading_5": "user",
+   "roles.heading_6": "user",
+   "roles.body": "user",
+   "roles.body_first": "user",
+   "roles.list_bullet": "user",
+   "roles.list_number": "user",
+   "roles.quote": "user",
+   "roles.caption": "user",
+   "roles.figure_caption": "user",
+   "roles.table_text": "user"
+  }
+ },
+ "extra_styles": [
+  {
+   "id": "IJPCRHeading4",
+   "name": "IJPCR Heading 4",
+   "based_on": "IJPCRHeading3",
+   "outline_level": 3
+  },
+  {
+   "id": "IJPCRHeading5",
+   "name": "IJPCR Heading 5",
+   "based_on": "IJPCRHeading3",
+   "outline_level": 4
+  },
+  {
+   "id": "IJPCRHeading6",
+   "name": "IJPCR Heading 6",
+   "based_on": "IJPCRHeading3",
+   "outline_level": 5
+  }
+ ],
+ "page_one": {
+  "banner": {
+   "left": "RESEARCH ARTICLE",
+   "right": "Open Access",
+   "fill": "003366",
+   "color": "FFFFFF",
+   "font": "Tahoma",
+   "size_pt": 13,
+   "bold": true
+  },
+  "title": {
+   "font": "Trebuchet MS",
+   "size_pt": 18,
+   "bold": true,
+   "space_before_pt": 8
+  },
+  "authors": {
+   "font": "Trebuchet MS",
+   "size_pt": 11,
+   "bold": true,
+   "space_before_pt": 8.9,
+   "orcid_icon": "orcid.png",
+   "orcid_icon_cm": 0.31
+  },
+  "panel": {
+   "width_cm": 4.33,
+   "font": "Trebuchet MS",
+   "size_pt": 8.5,
+   "line_pt": 12.3,
+   "rule_width_cm": 3.8,
+   "issn": "3108-6136",
+   "licence_short": "(CC BY 4.0)",
+   "labels": {
+    "corresponding": "*Corresponding Author",
+    "received": "Received:",
+    "accepted": "Accepted:",
+    "published": "Publication Date:",
+    "copyright": "© The Author(s)",
+    "issn": "ISSN:",
+    "email": "Corresponding Author Email:"
+   }
+  },
+  "abstract_box": {
+   "width_cm": 12.91,
+   "min_height_cm": 12.82,
+   "border": "003366",
+   "border_pt": 1.0,
+   "heading": "Abstract",
+   "heading_font": "Trebuchet MS",
+   "heading_size_pt": 11,
+   "text_font": "Times New Roman",
+   "text_size_pt": 11,
+   "line_pt": 12.35,
+   "keywords_label": "Keywords:"
+  },
+  "citation_box": {
+   "fill": "DAE5F1",
+   "border": "1F3863",
+   "border_pt": 1.0,
+   "font": "Times New Roman",
+   "size_pt": 11,
+   "color": "221F1F",
+   "label": "Cite this article:",
+   "journal": "International Journal of Peace and Conflict Research (IJPCR)",
+   "space_before_pt": 12
+  },
+  "licence": {
+   "logo": "logo.png",
+   "logo_cm": 2.26,
+   "logo_cell_cm": 4.33,
+   "font": "Trebuchet MS",
+   "size_pt": 7.5,
+   "lead_size_pt": 8,
+   "copyright": "©The Author(s)",
+   "lead": "Open Access.",
+   "text": "This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution, and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third-party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. Visit ",
+   "url": "https://creativecommons.org/licenses/by/4.0/",
+   "after_url": " to view a copy of this license.",
+   "space_before_pt": 12
+  },
+  "body_starts_on_new_page": true
+ },
+ "back_matter": {
+  "heading_style": "IJPCRDeclHeading",
+  "text_style": "IJPCRDeclText",
+  "items": [
+   [
+    "acknowledgements",
+    "Acknowledgements"
+   ],
+   [
+    "competing_interests",
+    "Declaration of Competing Interest"
+   ],
+   [
+    "ai_declaration",
+    "Declaration of Generative AI and AI-assisted technologies in the writing process"
+   ],
+   [
+    "funding",
+    "Funding"
+   ]
+  ],
+  "references_heading": "References",
+  "references_heading_style": "IJPCRRefHeading",
+  "reference_style": "IJPCRReference"
+ },
+ "header_fields": {
+  "DOI": "doi",
+  "VOLUME": "volume",
+  "ISSUE": "issue",
+  "PAGES": "pages",
+  "YEAR": "year"
+ }
+}
