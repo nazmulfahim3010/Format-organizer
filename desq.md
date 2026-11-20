@@ -533,7 +533,7 @@ python -m venv .venv
 # Activate virtual environment (Windows: .venv\Scripts\activate; POSIX: source .venv/bin/activate)
 pip install -r requirements.txt
 export SMARTDOC_SECRET="your-secure-random-32-character-secret-key"
-uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+uvicorn app.main:app --host 0.0.0.0 --port 9000 --reload
 ```
 
 ### 10.3. Running the Frontend
@@ -541,7 +541,7 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```bash
 cd frontend
 npm install
-npm run dev      # Starts Vite dev server with proxy to http://localhost:8000
+npm run dev      # Starts Vite dev server with proxy to http://localhost:9000
 npm run build    # Produces optimized production bundle in frontend/dist
 ```
 
@@ -558,4 +558,3 @@ npm run build    # Produces optimized production bundle in frontend/dist
    - Native MathML / OMML Equation support
    - Bibliographic reference and citation management
 4. **Client-Side Preview Fidelity:** `docx-preview` in the browser provides an approximate layout preview. Exact pagination and font shaping should always be verified by downloading the final `.docx` or exported PDF.
-

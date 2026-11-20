@@ -69,14 +69,14 @@ cd frontend && npm run build
 ```
 
 ```bash
-python backend/scripts/dev_server.py --port 8000
+python backend/scripts/dev_server.py --port 9000
 ```
 
-Open http://localhost:8000. `--data DIR` puts the database, uploads and generated files in a separate folder
+Open http://localhost:9000. `--data DIR` puts the database, uploads and generated files in a separate folder
 (default `backend/storage/`).
 
-Development with hot reload: run the API on port 8000 as above, then `npm run dev` in `frontend/` (Vite on
-:5173 proxies `/api` to :8000).
+Development with hot reload: run the API on port 9000 as above, then `npm run dev` in `frontend/` (Vite on
+:5173 proxies `/api` to :9000).
 
 Settings (environment variables): `SMARTDOC_SECRET` (required in production, at least 32 characters),
 `SMARTDOC_ENV=production`, `SMARTDOC_DATA_DIR`, `SMARTDOC_DATABASE_URL`, `SMARTDOC_CORS_ORIGINS`,
